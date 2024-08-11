@@ -1,0 +1,65 @@
+1. JavaScript:
+          JavaScript is a versatile programming language used along with HTML and CSS primarily used to enhance the interactivity and functionality of web pages. 
+2. Variables and Types: 
+          let userAge = 18;
+          let userName = "sudharshana";
+          console.log("User Name:", userName);
+          console.log("User Age:", userAge);
+3. Comments in JavaScript:
+          /*
+           This function takes a name and age as an input parameter
+           and returns a personalized greeting message.
+          */
+          let userAge = 18;
+          let userName = "sudharshana";
+          console.log("Hello Hacker - ", userName);
+          console.log("You are eligible - ", userAge);
+4. Operations:
+          let num1 = 10;
+          let num2 = 5;
+
+          let sum = num1 + num2;
+          let difference = num1 - num2;
+          let product = num1 * num2;
+          let quotient = num1 / num2;
+          
+          console.log("Sum:", sum);
+          console.log("Difference:", difference);
+          console.log("Product:", product);
+          console.log("Quotient:", quotient);
+5. Data Types:
+          let greeting = "Hello, World!";
+          console.log("String:", greeting);
+          
+          let age = 18;
+          console.log("Number:", age);
+        
+          let isStudent = true;
+          console.log("Boolean:", isStudent);
+          
+          let techstack = ["React", "Next.js", "Node.js"];
+          console.log("Array:", techstack);
+6. Functions in JavaScript:
+          function greetUser(name) {
+            return "Hello Hacker, " + name + "!";
+          }
+          console.log(greetUser("Sudharshana B"));
+7. if Else in JavaScript:
+          let temperature = 35;
+          if (temperature > 30) {
+            console.log("It's a hot day!");
+          } else {
+            console.log("The weather is pleasant and colder.");
+          }
+8. FOR LOOP:
+          for (let i = 1; i <= 5; i++) {
+            console.log(i);
+          }
+9. Loose vs Strict Equality:
+          console.log(5 == '5'); Output: True -> Loose Equality
+          console.log(0 === false); Output: False -> Strict Equality
+
+
+
+
+
