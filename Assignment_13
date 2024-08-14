@@ -1,16 +1,16 @@
-#My Code
+//My Code
 
 function multiplyByTen(myArray) {
     const resultArray = myArray.map(value => value * 10);
     return resultArray;
 }
 
-#My Input
+//My Input
 
 const input1 = [12, 2, 2, 4, 1];
 const output1 = multiplyByTen(input1);
 console.log("Sample Output 1:", output1);
 
-#Output
+//Output
 [120,20,20,40,10]
 
