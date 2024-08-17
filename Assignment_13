@@ -1,3 +1,4 @@
+1.
 //My Code
 
 function multiplyByTen(myArray) {
@@ -14,3 +15,12 @@ console.log("Sample Output 1:", output1);
 //Output
 [120,20,20,40,10]
 
+2. 
+function filterEvenNumbers(myArray) {
+    const resultArray = myArray.filter(number => number % 2 === 0);
+    return resultArray;
+}
+
+const input1 = [12, 5, 7, 8, 3, 2];
+const output1 = filterEvenNumbers(input1);
+console.log("Sample Output 1:", output1);
